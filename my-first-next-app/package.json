@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslit .",
+    "lint": "eslint .",
     "lint:fix": "eslint --fix . --max-warnings=0",
     "prepare": "cd .. && husky my-first-next-app/.husky"
   },
@@ -32,7 +32,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.37.3",
     "globals": "^15.14.0",
-    "husky": "^8.0.3",
+    "husky": "^9.1.7",
     "papaparse": "^5.4.1",
     "postcss": "^8",
     "prettier": "^3.4.2",
